@@ -1,0 +1,61 @@
+Посмотреть где я
+	pwd
+Создать папку
+	mkdir dir1
+Зайти в папку
+	cd dir1
+Создать 3 папки
+	mkdir sdir1 sdir2 sdir3
+Зайти в любую папку
+	cd sdir1
+Создать 5 файлов (3 txt, 2 json)
+	touch file1.txt file2.txt file3.txt jsonfile1.json jsonfile2.json
+Создать 3 папки
+	mkdir ssdir1 ssdir2 ssdir3
+Вывести список содержимого папки
+	ls-la
+Открыть любой txt файл + написать туда что-нибудь, любой текст. + сохранить и выйти.
+	vim file1.txt
+	i
+		Галимая суета, работа до седьмого пота
+		У меня нет времени послушать даже анекдоты
+		Просматриваю почту - вижу девочку на фото
+		Письмо читаю, а в нём, а в нём минорная нота
+	:
+	esc
+	wq
+Выйти из папки на уровень выше
+	cd ..
+Переместить любые 2 файла, которые вы создали, в любую другую папку.
+	mv file1.txt file2.txt ../sdir2
+Скопировать любые 2 файла, которые вы создали, в любую другую папку.
+	cp file3.txt jsonfile1.json ../sdir3
+Найти файл по имени
+	find file1.txt
+Просмотреть содержимое в реальном времени
+	less file2.txt
+Вывести несколько первых строк из текстового файла
+	head -3 file2.txt
+Вывести несколько последних строк из текстового файла
+	tail -4 file2.txt
+Просмотреть содержимое длинного файла (команда less) изучите как она работает.
+	less -s file2.txt
+Вывести дату и время
+	date -u
+Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+	curl http://162.55.220.72:5005/terminal-hw-request
+Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+	touch script
+	vim script
+		cd dir1
+		mkdir sdir1 sdir2 sdir3
+		cd sdir1
+		touch file1.txt file2.txt file3.txt jsonfile1.json jsonfile2.json
+		cd ..
+		cd sdir1
+		mkdir ssdir1 ssdir2 ssdir3
+		ls-la
+		mv file1.txt file2.txt ../sdir2
+	chmod +x script
+	./script
