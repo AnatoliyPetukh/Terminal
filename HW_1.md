@@ -14,7 +14,7 @@
 | 11. Сохранить и выйти / Save and exit | `esc` > `shift+:` > `wq` > `enter` |
 | 12. Выйти из папки на уровень выше / Go up one level in the folder structure |`cd ..` > `enter` |
 | 13. Переместить любые 2 файла, которые вы создали, в любую другую папку / Move any 2 files that you created to any other folder | `mv` file1.txt file2.txt ../sdir2 > `enter` |
-| 14. Cкопировать любые 2 файла, которые вы создали, в любую другую папку / Copy any 2 files that you created to any other folder |`cp` file3.txt jsonfile1.json > `enter` |
+| 14. Cкопировать любые 2 файла, которые вы создали, в любую другую папку / Copy any 2 files that you created to any other folder |`cp` file3.txt jsonfile1.json ../sdir2 > `enter` |
 | 15. Найти файл по имени - Find a file by name | `find` file1.txt > `enter`| 
 | 16. Просмотреть содержимое в реальном времени (команда grep) изучите как она работает / View real-time content (using the grep command) | `less` file2.txt > `enter` (`grep` is a mislead) | 
 | 17. Вывести несколько первых строк из текстового файла / Display the first few lines of a text file | `head -3` file2.txt > `enter` | 
